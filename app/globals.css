@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "ABCFavorit";
+  src: url("../public/fonts/ABCFavorit-Bold.otf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: "ABCFavorit";
+  src: url("../public/fonts/ABCFavorit-Bold.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: ABC Favorit;
+  src: url("/fonts/ABCFavorit-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "ABCFavorit";
+  src: url("/fonts/ABCFavorit-Bold.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "ABC Favorit";
+  src: url("/fonts/ABCFavorit-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* 
+@font-face {
+  font-family: "ABCFavorit";
+  src: url("../public/fonts/ABCFavorit-Bold.otf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+} */
+
+:root {
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --tx2large: 32px;
+  --tgiant: clamp(40px, 8vw, 80px);
+  @media screen and (max-width: 480px) {
+    --tx2large: 25px;
+    /*  --tgiant: 40px; */
+  }
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  touch-action: manipulation;
+}
+
+html,
+body {
+  background: #1c1917 !important;
+  color: #d6d3d1 !important;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-print-color-scheme: dark;
+  color-scheme: dark;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-feature-settings: "kern";
+}
+
+:where(*, *::before, *::after) {
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  border-color: #e7e5e4;
+}
+
+*,
+*::before,
+::after {
+  border-color: #e7e5e4;
+}
+
+body {
+  font-family: ABC Favorit;
+  font-weight: 400;
+  color: #292524;
+  background: #ffffff;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  line-height: 1.5;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-color: hsl(29, 51.5%, 72.8%);
+}
+
+.logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  overflow: hidden;
+}
