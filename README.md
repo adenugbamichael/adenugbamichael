@@ -1,7 +1,7 @@
 <h3 align="center">👋 Hi, I'm Michael.</h3>
 
 <p align="center">
-  <a>Website</a> •
+  <a href="https://github.com/adenugbamichael">Website</a> •
   <a href="https://adenugbamicke@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/adenugbamichael">Linkedin</a>
 </p>
