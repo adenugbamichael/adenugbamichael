@@ -1,6 +1,6 @@
 import React from "react"
 import { SiGithub, SiTwitter } from "react-icons/si"
-import { HiOutlineMail } from "react-icons/hi"
+import { FaDev } from "react-icons/fa"
 import { RxLinkedinLogo, RxResume } from "react-icons/rx"
 import Link from "next/link"
 import "../css/components/socialIcons.scss"
@@ -25,9 +25,9 @@ const SocialIcons = () => {
       link: "https://twitter.com/MichaelAdenugba",
     },
     {
-      name: "Email",
-      icon: <HiOutlineMail />,
-      link: "mailto:adenugbamicke@gmail.com",
+      name: "Dev",
+      icon: <FaDev />,
+      link: "https://dev.to/adenugbamichael",
     },
     {
       name: "Resume",
