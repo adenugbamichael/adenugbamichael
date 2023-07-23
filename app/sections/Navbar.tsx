@@ -1,19 +1,28 @@
-import React from "react"
+"use client"
+
+import React, { useState } from "react"
 import Link from "next/link"
+import { SiAboutdotme } from "react-icons/si"
+import { GoProjectSymlink } from "react-icons/go"
+import { FaBlog } from "react-icons/fa"
+import { LuContact } from "react-icons/lu"
 import Logo from "../components/Logo"
 import "../css/sections/navbar.scss"
+// import Button from "../components/button"
 
 const Navbar = () => {
+  const [active, setActive] = useState("")
   const sectionLinks = [
-    { name: "About", link: "/#about" },
-    { name: "Blog", link: "/#blog" },
-    { name: "Experience", link: "/#experience" },
-    { name: "Projects", link: "/#projects" },
+    { name: "About", link: "/#about", icon: <SiAboutdotme /> },
+    { name: "Blog", link: "/#blog", icon: <FaBlog /> },
+    { name: "Projects", link: "/#projects", icon: <GoProjectSymlink /> },
     {
       name: "Contact",
       link: "/#contact",
+      icon: <LuContact />,
     },
   ]
+
   return (
     <nav>
       <div className='wrapper'>
@@ -24,14 +33,29 @@ const Navbar = () => {
         </div>
         <div className='nav-items'>
           <ul className='nav-items-list'>
-            {sectionLinks.map(({ name, link }) => (
-              <li key={name} className='nav-items-list-item'>
-                <Link href={link} className='nav-items-list-item-link'>
-                  {name}
-                </Link>{" "}
+            {sectionLinks.map(({ name, link, icon }) => (
+              <li
+                key={name}
+                onClick={() => {
+                  setActive(name)
+                }}
+                className='nav-items-list-item'
+              >
+                <Link
+                  href={link}
+                  className={` ${
+                    active === name ? "link--current" : ""
+                  }  nav-items-list-item-link`}
+                >
+                  <span className='nav-icon'>{icon}</span>
+                  <span className='nav-text'>{name}</span>
+                </Link>
               </li>
             ))}
           </ul>
+          {/* <div className='nav-items-button'>
+            <Button text='Resume' link='' />
+          </div> */}
         </div>
       </div>
     </nav>
