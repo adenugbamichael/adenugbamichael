@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/adenugbamichael">Website</a> •
-  <a href="https://adenugbamicke@gmail.com">Email</a> •
+  <a href="mailto:adenugbamicke@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/adenugbamichael">Linkedin</a>
 </p>
 
