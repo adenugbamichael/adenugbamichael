@@ -10,7 +10,7 @@
 
 I’m a software developer, currently working as an intern frontend developer at [DexP2P](https://www.dexp2p.com/) working on front-end page and features. I have strong desire for continuous learning and building. Currently learning TypeScript and other latest technologies.
 
-I like to contribute to open-source, build an exciting [solutions](https://e-store-appl.netlify.app/) that help people with their everyday lives.
+I like to contribute to open-source, develop high-quality [solutions](https://e-store-appl.netlify.app/) that help people with their everyday lives.
 
 I am always open to new ideas and opportunities. Feel free to reach out and connect with me. I can't wait to see what the future holds.
 
