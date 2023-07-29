@@ -12,8 +12,7 @@ I’m a software developer, currently working as an intern frontend developer at
 
 I like to contribute to open-source, build an exciting [solutions](https://e-store-appl.netlify.app/) that help people with their everyday lives.
 
-I am always open to new ideas and
-opportunities. Feel free to reach out and connect with me. I can't wait to see what the future holds.
+I am always open to new ideas and opportunities. Feel free to reach out and connect with me. I can't wait to see what the future holds.
 
 ## 🛠️ Technologies & Tools
 
