@@ -1,11 +1,12 @@
 "use client"
 import Image from "next/image"
 import logo from "../../public/images/logo.jpg"
+import "../css/components/logo.scss"
 
 const Logo = () => {
   return (
-    <div className='logo-container'>
-      <div className='logo'>
+    <div className='logo'>
+      <div className='logo-image'>
         <Image
           priority
           alt='Michael Adenugba'

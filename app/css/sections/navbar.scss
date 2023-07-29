@@ -1,15 +1,25 @@
 nav {
-  min-height: 60px;
+  // min-height: 60px;
+  // margin: 0 10rem;
+  // max-width: 72rem;
+  // padding-top: 1.5rem;
+  // padding-bottom: 1.5rem;
+  max-width: 72rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
   .wrapper {
-    padding: 0 4rem;
-    width: 100%;
+    // width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // padding: 0 4rem;
     transition: 0.3s ease-in-out;
     position: relative;
     .brand {
       a {
+        // color: ;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,60 +27,53 @@ nav {
         width: 3rem;
         margin: 1.5rem 0;
         cursor: pointer;
-        // fill: none;
-        // color:;
         transition: 0.3s ease-in-out;
-        // outline: 2px dashed transparent;
+        // border-radius: 9999px;
+        outline: 2px solid transparent;
         // cursor: pointer;
-        &:hover {
-          // fill: ;
-        }
+        // fill: none;
         &:focus {
-          // outline-color: ;
-          // fill: ;
+          outline-color: #e8cdb5;
+          outline-offset: 3px;
+          // border-radius: 0.5rem;
         }
       }
     }
     .nav-items {
       display: flex;
       gap: 3rem;
-      justify-content: center;
-      align-items: center;
+      // color: ;
+      // font-family: ;
+      // font-weight: ;
+      // font-size: ;
       &-list {
         display: flex;
-        gap: 3rem;
         list-style-type: none;
+        gap: 2.5rem;
         &-item {
           a {
+            color: #d6d3d1;
+            font-family: "MTNBrighterSans-Regular";
             outline: 2px solid transparent;
             transition: 0.3s ease-in-out;
             color: inherit;
             text-decoration: none;
             padding: 10px;
+            border-radius: 0.5rem;
             display: flex;
             align-items: center;
             flex-direction: row;
-            padding-top: 0.625rem;
-            padding-bottom: 0.625rem;
-            border-radius: 0.5rem;
-
-            &:hover {
-              color: #d09e72;
+            &::before {
+              // counter-increment: ;
             }
-          }
-          a:focus {
-            outline-color: #e8cdb5;
-            outline-offset: 3px;
-            border-radius: 0.5rem;
+            &:focus {
+              outline-color: #e8cdb5;
+              outline-offset: 3px;
+              border-radius: 0.5rem;
+            }
           }
         }
       }
     }
   }
 }
-
-// background: #292524;
-//             box-shadow: inset 0 2px 0 0 rgb(255 255 255 / 5%);
-//             padding-top: 0.625rem;
-//             padding-bottom: 0.625rem;
-//             border-radius: 0.5rem;

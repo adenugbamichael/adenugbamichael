@@ -1,66 +1,46 @@
 .social-icons {
-  // position: absolute;
+  // position: fixed;
   // bottom: 0;
-  // left: 4rem;
+  left: 4rem;
   &-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin-top: 1.5rem;
-    width: 100%;
     gap: 0.5rem;
     &-item {
-      font-size: 22px;
+      font-size: var(--tlarge2);
       transition: 0.3s ease-in-out;
       display: flex;
       justify-content: center;
       align-items: center;
       &-link {
         padding: 10px;
-        padding-bottom: 0px;
-        color: #d09e72 !important;
+        color: #d09e72;
         transition: 0.3s ease-in-out;
         outline: 2px solid transparent;
-
         &:hover {
           // color: #d09e72 !important;
         }
         &:focus {
           outline-color: #e8cdb5;
+          transform: translateY(-4px);
           outline-offset: 0.5px;
-        }
-        &-heroIcons {
-          width: 1em;
-          height: 1em;
-          display: inline-block;
-          line-height: 1em;
-          -webkit-flex-shrink: 0;
-          -ms-flex-negative: 0;
-          flex-shrink: 0;
-          font-size: 2.25rem;
         }
       }
       &:hover {
-        // transform: translateY(-4px);
+        transform: translateY(-4px);
       }
       // &:last-child {
       //   margin-bottom: 2rem;
       // }
     }
-
     // &::after {
     //   content: "";
     //   display: block;
     //   width: 2px;
     //   height: 90px;
-    //   background-color: #d6d3d1;
-    //   // background-color: #e8cdb5;
     //   margin: 0px auto;
+    //   background-color: #d09e72;
     // }
-  }
-  @media screen and (min-width: 48em) {
-    &-list {
-      margin-top: 3rem;
-    }
   }
 }

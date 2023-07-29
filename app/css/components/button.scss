@@ -1,14 +1,28 @@
-.btn {
-  color: #d09e72;
-  padding: 0.75em 1em;
-  text-decoration: none;
-  border: 1px solid #d09e72;
-  border-radius: 4px;
-  background-color: transparent;
-  font-size: inherit;
-  outline: none;
-  &:hover,
-  &:focus {
-    // background-color: ;
+.hero-button {
+  margin-top: 2rem;
+  .btn {
+    padding: 0.75em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #292524;
+    width: 247.61px;
+    
+
+    //
+    display: flex;
+    flex-direction: row;
+    // gap: .5rem;
+    &:hover {
+    }
+    &:focus {
+      // background-color: ;
+    }
+    .btn-text {
+      color: #a8a29e;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }

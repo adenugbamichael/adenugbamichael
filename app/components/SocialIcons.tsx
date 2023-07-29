@@ -1,33 +1,36 @@
-import React from "react"
-import { SiGithub, SiTwitter } from "react-icons/si"
-import { RxLinkedinLogo } from "react-icons/rx"
-import { HiOutlineMail } from "react-icons/hi"
 import Link from "next/link"
+import React from "react"
+import { FiGithub, FiLinkedin, FiTwitter, FiFile, FiMail } from "react-icons/fi"
 import "../css/components/socialIcons.scss"
 
 const SocialIcons = () => {
   const socialLinks = [
     {
       name: "Github",
-      icon: <SiGithub />,
+      icon: <FiGithub />,
       link: "https://github.com/adenugbamichael",
     },
 
     {
       name: "LinkedIn",
-      icon: <RxLinkedinLogo />,
+      icon: <FiLinkedin />,
       link: "https://www.linkedin.com/in/adenugbamichael/",
     },
 
     {
       name: "Twitter",
-      icon: <SiTwitter />,
+      icon: <FiTwitter />,
       link: "https://twitter.com/MichaelAdenugba",
     },
 
+    // {
+    //   name: "Resume",
+    //   icon: <FiFile />,
+    //   link: "http://localhost:3000/resume.pdf",
+    // },
     {
       name: "Email",
-      icon: <HiOutlineMail />,
+      icon: <FiMail />,
       link: "mailto:adenugbamicke@gmail.com",
     },
   ]
@@ -41,9 +44,7 @@ const SocialIcons = () => {
               className='social-icons-list-item-link'
               target='_blank'
             >
-              <span className='social-icons-list-item-link-heroIcons'>
-                {icon}
-              </span>
+              {icon}
             </Link>
           </li>
         ))}

@@ -48,7 +48,7 @@ const Navbar = () => {
                   }  nav-items-list-item-link`}
                 >
                   <span className='nav-icon'>{icon}</span>
-                  <span className='nav-text'>{name}</span>
+                  <p className='nav-text'>{name}</p>
                 </Link>
               </li>
             ))}
