@@ -1,9 +1,9 @@
 "use client"
 
+import "../css/sections/hero.scss"
 import Link from "next/link"
 import React from "react"
 import Button from "../components/button"
-import "../css/sections/hero.scss"
 
 const Hero = () => {
   return (

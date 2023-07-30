@@ -1,5 +1,6 @@
 "use client"
 
+import "../css/sections/navbar.scss"
 import React, { useState } from "react"
 import Link from "next/link"
 import { SiAboutdotme } from "react-icons/si"
@@ -7,7 +8,6 @@ import { GoProjectSymlink } from "react-icons/go"
 import { FaBlog } from "react-icons/fa"
 import { LuContact } from "react-icons/lu"
 import Logo from "../components/Logo"
-import "../css/sections/navbar.scss"
 // import Button from "../components/button"
 
 const Navbar = () => {

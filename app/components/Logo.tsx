@@ -1,7 +1,7 @@
 "use client"
+import "../css/components/logo.scss"
 import Image from "next/image"
 import logo from "../../public/images/logo.jpg"
-import "../css/components/logo.scss"
 
 const Logo = () => {
   return (

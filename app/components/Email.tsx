@@ -1,6 +1,6 @@
+import "../css/components/email.scss"
 import React from "react"
 import { motion } from "framer-motion"
-import "../css/components/email.scss"
 const Email = () => {
   return (
     <motion.div

@@ -1,7 +1,7 @@
+import "../css/components/socialIcons.scss"
 import Link from "next/link"
 import React from "react"
 import { FiGithub, FiLinkedin, FiTwitter, FiFile, FiMail } from "react-icons/fi"
-import "../css/components/socialIcons.scss"
 
 const SocialIcons = () => {
   const socialLinks = [

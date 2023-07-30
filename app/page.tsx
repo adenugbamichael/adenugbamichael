@@ -7,6 +7,7 @@ import Navbar from "./sections/Navbar"
 import "./css/main.scss"
 
 import About from "./sections/About"
+import FeaturedProject from "./sections/FeaturedProject"
 
 const page = () => {
   return (
@@ -16,7 +17,7 @@ const page = () => {
       <main>
         <Hero />
         <About />
-        {/* <SocialIcons /> */}
+        <FeaturedProject />
       </main>
     </div>
   )

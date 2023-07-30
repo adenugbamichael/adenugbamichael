@@ -39,7 +39,7 @@
 
 /* ABC Favorit  */
 @font-face {
-  font-family: ABCFavorit-Regular;
+  font-family: "ABCFavorit-Regular";
   src: url("/fonts/ABCFavorit-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -71,10 +71,15 @@
 
 body {
   background-color: #1c1917;
-  font-family: ABCFavorit-Regular;
+  font-family: "ABCFavorit-Regular";
   font-weight: 400;
   color: #d6d3d1;
   line-height: 1.5;
+}
+
+html,
+body {
+  scroll-behavior: smooth !important;
 }
 
 * {
@@ -109,4 +114,44 @@ body {
 
 .link {
   color: #d09e72;
+}
+
+//////////////  Btn ////////////
+.css-e03evr > :not(style) ~ :not(style) {
+  margin-inline-start: 0.5rem;
+  margin-top: 0px;
+}
+
+.css-16e2737 {
+  display: inline;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms ease 0s;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  width: auto;
+  line-height: inherit;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  height: unset;
+  min-width: unset;
+  font-size: 1rem;
+  background: none;
+  color: inherit;
+  margin: 0px 0px 8px 0.1rem;
+  padding: 0px;
+}
+
+.css-11ynch8 {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  line-height: 1em;
+  flex-shrink: 0;
+  color: #d6d3d1;
+  vertical-align: middle;
 }

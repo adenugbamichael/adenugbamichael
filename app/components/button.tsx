@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+import "../css/components/button.scss"
 import Link from "next/link"
 import React from "react"
-import "../css/components/button.scss"
 
 const Button = ({ text, link }: { text: string; link: string }) => {
   return (
