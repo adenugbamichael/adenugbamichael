@@ -14,7 +14,7 @@ const Navbar = () => {
   const [active, setActive] = useState("")
   const sectionLinks = [
     { name: "About", link: "/#about", icon: <SiAboutdotme /> },
-    { name: "Blog", link: "/#blog", icon: <FaBlog /> },
+    { name: "Blog", link: "/blog", icon: <FaBlog /> },
     { name: "Projects", link: "/#projects", icon: <GoProjectSymlink /> },
     {
       name: "Contact",

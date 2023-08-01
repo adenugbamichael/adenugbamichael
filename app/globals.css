@@ -87,6 +87,13 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: "MTNBrighterSans-Regular";
+}
+
 .link--current {
   background: #292524;
   box-shadow: inset 0 2px 0 0 rgb(255 255 255 / 5%);
@@ -154,4 +161,22 @@ body {
   flex-shrink: 0;
   color: #d6d3d1;
   vertical-align: middle;
+}
+
+.blog-container {
+  max-width: 72rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+}
+
+////Blog//////
+.blog:hover {
+  z-index: 0;
+  background: #292524;
+  position: absolute;
+  inset: -1.5rem;
+  opacity: 0;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }

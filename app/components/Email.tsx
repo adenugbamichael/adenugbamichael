@@ -1,3 +1,4 @@
+"use client"
 import "../css/components/email.scss"
 import React from "react"
 import { motion } from "framer-motion"

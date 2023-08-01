@@ -12,8 +12,6 @@ import FeaturedProject from "./sections/FeaturedProject"
 const page = () => {
   return (
     <div className='app'>
-      <Navbar />
-      <Email />
       <main>
         <Hero />
         <About />
