@@ -170,13 +170,3 @@ h4 {
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
 }
-
-////Blog//////
-.blog:hover {
-  z-index: 0;
-  background: #292524;
-  position: absolute;
-  inset: -1.5rem;
-  opacity: 0;
-  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-}
