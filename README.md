@@ -8,7 +8,7 @@
 
 ---
 
-I’m a software developer, currently working as an intern frontend developer at [DexP2P](https://www.dexp2p.com/) working on front-end page and features. I am learning TypeScript and other latest technologies currently.
+I’m a software developer, working as an intern frontend developer at [DexP2P](https://www.dexp2p.com/) working on front-end page and features. Currently learning TypeScript and other latest technologies.
 
 I am always open to new ideas and opportunities. Feel free to reach out and connect with me. I can't wait to see what the future holds.
 
