@@ -1,7 +1,7 @@
 <h3 align="center">👋 Hi, I'm Michael.</h3>
 
 <p align="center">
-  <a href="https://github.com/adenugbamichael">Website</a> •
+  <a href="https://michael-henna.vercel.app">Website</a> •
   <a href="mailto:adenugbamicke@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/adenugbamichael">Linkedin</a>
 </p>
