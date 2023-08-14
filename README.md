@@ -10,7 +10,7 @@
 
 I’m a software developer, working as an intern frontend developer at [DexP2P](https://www.dexp2p.com/) working on front-end page and features. Currently learning TypeScript and other latest technologies.
 
-I am always open to new ideas and opportunities. Feel free to reach out and connect with me. I can't wait to see what the future holds.
+I'm always open to new ideas and opportunities. Feel free to reach out and connect with me. I can't wait to see what the future holds.
 
 ## 🛠️ Technologies & Tools
 
