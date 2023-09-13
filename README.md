@@ -1,3 +1,3 @@
-<code>👋 Hi, I'm Michael.</code>
+<code>Hi there 👋, I'm Michael.</code>
 
 ---
